@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to right, #6a11cb, #2575fc);
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    header {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      color: #ffdd57;
+    }
+
+    header p {
+      font-size: 1.2rem;
+    }
+
+    section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #ffdd57;
+    }
+
+    .about {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 30px;
+      border-radius: 15px;
+      text-align: center;
+    }
+    .skills {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .skill-card {
+      background: rgba(255, 255, 255, 0.15);
+      padding: 20px;
+      border-radius: 15px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .skill-card:hover {
+      transform: scale(1.05);
+      background: rgba(255, 255, 255, 0.25);
+    }
+
+    .experience ul {
+      list-style: none;
+    }
+
+    .experience li {
+      background: rgba(0, 0, 0, 0.4);
+      margin: 10px 0;
+      padding: 15px;
+      border-radius: 10px;
+    }
+
+    .contact {
+      text-align: center;
+    }
+
+    .contact a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      background: #ffdd57;
+      color: #000;
+      border-radius: 25px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .contact a:hover {
+      background: #ffc107;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: rgba(0,0,0,0.7);
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Sunkayyagari Venkatesh</h1>
+    <p>B.Tech Data Science | Aspiring Software Engineer</p>
+  </header>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <p>Hello! I’m Venkatesh, passionate about technology, data science, and web development.
+       I enjoy building projects, solving problems, and learning new technologies.</p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="skill-card">Python</div>
+      <div class="skill-card">Java</div>
+      <div class="skill-card">SQL</div>
+      <div class="skill-card">Machine Learning</div>
+      <div class="skill-card">Web Development</div>
+    </div>
+  </section>
+
+  <section class="experience">
+    <h2>Experience</h2>
+    <ul>
+      <li>Internship at Rooman Technology – Learned SQL, Python, Java, ML, Power BI</li>
+      <li>AICTE & Upskill Internships – Python, Projects</li>
+      <li>HexSoftwares Internship – Web Development Projects</li>
+    </ul>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Me</h2>
+    <a href="mailto:venkatesh@example.com">Email</a>
+    <a href="https://www.linkedin.com/in/venkatesh">LinkedIn</a>
+    <a href="https://github.com/venkatesh">GitHub</a>
+  </section>
+
+  <footer>
+    <p>© 2025 Venkatesh S | Portfolio Website</p>
+  </footer>
+
+</body>
+</html>
