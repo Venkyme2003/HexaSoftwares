@@ -1,15 +1,19 @@
 # HexaSoftwares
 
-🌟 Personal Portfolio Website
+#🌟 Personal Portfolio Website
 
 A stylish and responsive Personal Portfolio Website built using HTML & CSS as part of my HexSoftwares Internship.
 This portfolio showcases my bio, skills, experience, and contact details in a modern and elegant layout.
 
-🌐 Live Demo
+---
 
-🔗 Click here to view my Portfolio (file:///C:/Users/sv711/OneDrive/Desktop/Venky/Zidio/Html.html/Portpolio.html)
+##🌐 Live Demo
 
-✨ Features
+🔗 [Click here to view my Portfolio] (file:///C:/Users/sv711/OneDrive/Desktop/Venky/Zidio/Html.html/Portpolio.html)
+
+---
+
+##✨ Features
 
 👤 About Me — A short bio about my background and interests.
 
@@ -21,15 +25,20 @@ This portfolio showcases my bio, skills, experience, and contact details in a mo
 
 🎨 Modern UI — Gradient background, hover effects, and responsive design.
 
-🛠 Tech Stack
+---
+
+##🛠 Tech Stack
 
 HTML5 — Page structure
 
 CSS3 — Styling and layout
 
-⚙ Installation & Setup
+---
+
+##⚙ Installation & Setup
 
 Follow these steps to run the project locally:
+```bash
 
 # 1️⃣ Clone the repository
 git clone https://github.com/<your-username>/HexSoftwares_Project_Portfolio.git  
@@ -38,8 +47,11 @@ git clone https://github.com/<your-username>/HexSoftwares_Project_Portfolio.git
 cd HexSoftwares_Project_Portfolio  
 
 # 3️⃣ Open index.html in your browser
+```
 
-📌 How It Looks
+---
+
+##📌 How It Looks
 
 Home / Bio → Introduces me
 
