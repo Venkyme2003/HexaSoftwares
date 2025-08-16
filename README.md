@@ -7,7 +7,7 @@ This portfolio showcases my bio, skills, experience, and contact details in a mo
 
 🌐 Live Demo
 
-🔗 Click here to view my Portfolio (Replace with your GitHub Pages link after hosting)
+🔗 Click here to view my Portfolio (file:///C:/Users/sv711/OneDrive/Desktop/Venky/Zidio/Html.html/Portpolio.html)
 
 ✨ Features
 
